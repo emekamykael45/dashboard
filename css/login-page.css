@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face{
+    font-family: 'CircularStd-Book';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/CircularStd-Book.woff") format("opentype");
+}
 
  *{
     box-sizing: border-box;
-
  }
 
 body{
-    background: url('/images/background.png') no-repeat center center fixed; 
+    font-family: "CircularStd-Book", Arial, sans-serif;
+    background: url('../images/background.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Roboto';
 }
 
 .scam-alert{
@@ -19,13 +23,11 @@ body{
     padding: 1px ;
     margin: 0 auto;
     background: red;
-    font-family: 'roboto';
     line-height: normal;
     font-size: 11px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-    text-align: center;
-    
+    text-align: center;  
 }
 .scam-text{
     margin: 0;
@@ -52,7 +54,6 @@ body{
 }
  
 .nav-link {
-    font-family: 'Roboto';
     line-height: normal;
     font-size: 12px;
     letter-spacing: 0.02em;
@@ -94,16 +95,17 @@ body{
     box-shadow: 0px 4px 25px rgba(51, 51, 51, 0.2);
     border-radius: 7px;
     padding: 30px 60px;
+    
 }
 
 .formBox h1 {
-    font-family: 'roboto';
     line-height: normal;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #08501C;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -117,11 +119,14 @@ body{
     width: 100%;
     cursor: pointer;
     text-transform: uppercase;
-    font-family: 'roboto';
     line-height: normal;
     font-size: 13px;
     color: #FFFFFF;
     font-weight: bold;
+}
+
+.formBox form {
+    margin-top: 40px ;
 }
 
 .formBox a {
@@ -130,7 +135,6 @@ body{
     margin: 0;
     display: block;
     margin-top: 10px;
-    font-family: 'roboto';
     line-height: normal;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -164,9 +168,12 @@ body{
     font-size: 0.9em;
 }
 
+.form-group input[type="password"]{
+    margin-bottom: 20px;
+}
+
 .footer-text{
     color: #FFFFFF;
-    font-family:'roboto';
     line-height: normal;
     font-size: 12px;
     letter-spacing: 0.02em;

@@ -359,12 +359,6 @@ input:focus, textarea:focus{
     margin-top: 44px;
 }
 
-.main-page-content .go-to-link{
-    position: absolute;
-    top: 70px;
-    right: 10px;
-}
-
 .own-account-content{
     background: #FFFFFF;
     box-shadow: 1px 2px 10px rgba(79, 79, 79, 0.02);
@@ -387,158 +381,98 @@ input:focus, textarea:focus{
 
 .form-box{
     margin: 0 auto;
-    width: 60%;
+    width: 40%;
     margin-top: 40px;
 }
 
-.form-box h6{
-    color: #2A9E4A !important;
-    text-align: center;
+.form-group label{
+    color: #333333 !important;
     font-weight: 600;
 }
 
-.form-box .row{
-    margin: 0 auto;
-    width: 90%;
-    padding-left: 62px;
-}
-
-.form-box .send-receive-text{
-    color: #333333;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-.form-box .jaiz-account-text{
-    color: #545454;
-}
-
-.form-box .amount-div{
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 60%;
-    padding-left: 0px;
-}
-
-.form-box .enter-your-digits{
-    text-align: center;
-    font-weight: 600;
-    color: #333333;
-}
-
-.form-box .veri-field{
-    cursor: default;
-    margin: 0 auto;
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 9.2em;
-}
-
-.form-box input.verify {
-    display: inline-block;
-    width: 50px;
-    height: 46px;
-    line-height: 30px;
-    text-align: center;
-    font-size: 1.5em;
-    color: #414042;
-    border: 0;
+.form-group select, .form-group input{
     background: #F2FDF5;
-    border-radius: 3px;
-    cursor: text;
-    margin: 0;
-    margin-right: 15px;
-    padding: 0;
+    border: none;
+    font-size: 1em;
+}
+.form-group input{
+    width: 50%;
 }
 
-.form-box input.verify:focus{
-    border-bottom: 1.5px solid #2A9E4A;
+.form-group option.light-option{
+    color: rgba(130, 130, 130, 0.8);
 }
 
-.form-box form .buttons{
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 50px;
-    display: flex;
-}
-
-form .btn-back{
-    background: none;
-    border-radius: 3px;
-    border: 1.5px solid #2A9E4A;
-    width: 30%;
-    padding: 13px;
-    color: #2A9E4A;
-    font-weight: 500;
-    margin-bottom: 60px;
-    margin-right: 10%;
-    cursor: pointer;
+.form-group option{
+    color: #545454;
+    
 }
 
 form .btn-submit{
+    margin-top: 30px;
     background: #2A9E4A;
     border-radius: 3px;
     border: none;
-    width: 60%;
-    padding: 13px;
+    width: 100%;
+    padding: 15px;
     color: #FFFFFF;
     font-weight: 500;
-    margin-bottom: 60px;
-    cursor: pointer;
+    margin-bottom: 80px;
 }
 
-.modal .modal-header .modal-title{
-    margin: 0;
-    text-align: center;
-    width: 100%;
-    color: #42624B;
+
+.recent-trans-text{
+    font-size: 1.2em;
 }
 
-.modal .modal-body{
-    margin: 0;
-    text-align: center;
-    padding: 50px 0px;
+.table-responsive{
+    background: #FFFFFF;
+    box-shadow: 1px 2px 10px rgba(79, 79, 79, 0.02);
+    border-radius: 7px;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.table{
+    margin-bottom: 0px;
+}
+
+.table thead tr th{
+    border-bottom: 0.75px solid #D6E9DB !important;
+    padding: 6px !important;
+    padding-left: 25px !important;
+    font-size: 0.85em;
     font-weight: 600;
 }
 
-.modal#exampleModalCenter2 .modal-body p{
-    margin-bottom: 50px;
-    font-weight: 400;
+.table thead tr th.hidden-col{
+    color: #fff;
 }
 
-.modal .modal-body img{
-    width: 50px;
-    margin-top: -5px;
-    margin-bottom: 30px;
+.table tbody tr.stripped{
+    background: #FAFAFA;
 }
 
-.modal .modal-footer{
-    margin: 0 auto;
-    width: 70%;
-    border: none;
-    margin-left: 25px;
-    margin-bottom: 30px;
+.table tbody tr td{
+    padding-left: 25px !important;
+    font-size: 0.9em;
 }
 
-.modal .modal-footer .cancel-btn{
-    background: none;
-    border: 1.5px solid #2A9E4A;
+.table tbody tr td a{
     color: #2A9E4A;
+    font-size: 0.85em;
+    border: 1px solid #2A9E4A;
     border-radius: 3px;
-    padding: 12px;
-    cursor: pointer;
-    width: 30%;
-    margin-right: 10%;
+    padding: 5px 15px;
 }
 
-.modal .modal-footer .exit-btn{
-    background: #2A9E4A;
-    border: 1.5px solid #2A9E4A;
-    color: #FFFFFF;
-    border-radius: 3px;
-    padding: 12px;
-    cursor: pointer;
-    width: 30%;
+.table tbody tr td a:hover{
+    text-decoration: none;
+    color: #545454;
+    border: 1px solid #545454;
 }
+
+
 
 /*Main Page Ends Here*/
 
@@ -546,174 +480,38 @@ form .btn-submit{
 
 /*Responsive Page Starts Here*/
 
-@media screen and (max-width: 2500px){
-
-    .form-box .row{
-        margin-left: 16%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 38.5%;
-    }
-
-}
-
-@media screen and (max-width: 2384px){
-
-    .form-box .veri-field{
-        margin-left: 38%;
-    }
-
-}
-
-@media screen and (max-width: 2200px){
-
-    .form-box .veri-field{
-        margin-left: 37%;
-    }
-
-}
-
-@media screen and (max-width: 2044px){
-
-    .form-box .veri-field{
-        margin-left: 35.5%;
-    }
-
-}
-
-@media screen and (max-width: 1850px){
-
-    .form-box .row{
-        margin-left: 11%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 34%;
-    }
-
-}
-
-@media screen and (max-width: 1688px){
-
-    .form-box .veri-field{
-        margin-left: 32%;
-    }
-
-}
-
-@media screen and (max-width: 1550px){
-
-    .form-box .row{
-        margin-left: 9%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 30%;
-    }
-
-}
-
-@media screen and (max-width: 1405px){
-
-    .form-box .row{
-        margin-left: 6%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 28%;
-    }
-
-}
-
-@media screen and (max-width: 1300px){
-
-    .form-box .row{
-        margin-left: 3%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 26%;
-    }
-
-}
-
-@media screen and (max-width: 1188px){
-
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 24%;
-    }
-
-}
-
-@media screen and (max-width: 1112px){
+@media screen and (max-width: 1040px){
 
     .form-box{
-        width: 80%;
+        width: 70%;
     }
 
-    .form-box .row{
-        margin-left: 3%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 28%;
+    .table{
+        width: 110%;
     }
 
 }
 
-@media screen and (max-width: 1008px){
+@media screen and (max-width: 969px){
 
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 25%;
+    .table{
+        width: 130%;
     }
 
 }
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 858px){
 
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 21%;
-    }
-
-    .modal{
-        margin-left: 0px;
+    .table{
+        width: 150%;
     }
 
 }
 
-@media screen and (max-width: 848px){
+@media screen and (max-width: 777px){
 
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 17%;
-    }
-
-}
-
-@media screen and (max-width: 780px){
-
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 14%;
+    .table{
+        width: 160%;
     }
 
 }
@@ -789,186 +587,88 @@ form .btn-submit{
         width: 100%;
     }
 
-    .form-box .row{
-        margin-left: -2%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 24%;
+    .table{
+        width: 110%;
     }
 
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 749px){
 
-    .form-box .row{
-        margin-left: -5%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 20%;
+    .table{
+        width: 130%;
     }
 
 }
 
-@media screen and (max-width: 608px){
+@media screen and (max-width: 638px){
+
+    .table{
+        width: 150%;
+    }
+
+}
+
+@media screen and (max-width: 557px){
 
     .form-box{
-        width: 90%;
+        width: 85%;
     }
 
-    .form-box .row{
-        margin-left: -10%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 24%;
+    .table{
+        width: 170%;
     }
 
 }
 
-@media screen and (max-width: 575px){
-
-    .modal{
-        width: 90%;
-        margin-left: 25px;
-    }
-
-}
-
-@media screen and (max-width: 560px){
+@media screen and (max-width: 495px){
 
     .main-page-content{
-        width: 90% !important;
-    }
-
-    .form-box{
-        width: 90% !important;
-    }
-
-    .form-box .veri-field{
-        margin-left: 20%;
-    }
-
-    .modal .modal-footer{
-        width: 95%;
-        margin-left: -10px;
-    }
-    
-    .modal .modal-footer .cancel-btn{
-        width: 40%;
-    }
-    
-    .modal .modal-footer .exit-btn{
-        width: 40%;
-    }
-
-}
-
-@media screen and (max-width: 492px){
-
-    .form-box .veri-field{
-        margin-left: 15%;
-    }
-
-}
-
-@media screen and (max-width: 436px){
-
-    .form-box .veri-field{
-        margin-left: 10%;
-    }
-
-}
-
-@media screen and (max-width: 404px){
-
-    .modal{
-        margin-left: 15px !important;
-    }
-
-    .modal-body{
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
-
-}
-
-@media screen and (max-width: 390px){
-
-    .form-box .row{
-        margin-left: -20%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 5%;
-    }
-
-}
-
-@media screen and (max-width: 368px){
-
-    .form-box .row{
-        margin-left: -25%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 9%;
-    }
-
-    .form-box input.verify {
-        width: 45px;
-        height: 45px;
-        font-size: 1em;
-        margin-right: 10px;
-    }
-
-    .form-box form .buttons{
-        width: 90%;
-        display: block;
-    }
-
-    form .btn-back{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    
-    form .btn-submit{
         width: 100%;
     }
 
 }
 
-@media screen and (max-width: 344px){
+@media screen and (max-width: 425px){
 
-    .form-box .veri-field{
-        margin-left: 5%;
+    .table{
+        width: 190%;
     }
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 383px){
 
-    .main-page-content{
-        width: 98% !important;
+    .table{
+        width: 190%;
     }
 
-    .form-box .row{
-        margin-left: -25%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 5%;
+    .table tbody tr td{
+        padding-left: 25px !important;
+        font-size: 0.8em;
     }
 
 }
 
-@media screen and (max-width: 305px){
+@media screen and (max-width: 356px){
 
-    .form-box .veri-field{
-        margin-left: 3%;
+    .table{
+        width: 200%;
     }
+}
 
+@media screen and (max-width: 340px){
+
+    .table{
+        width: 220%;
+    }
+}
+
+@media screen and (max-width: 312px){
+
+    .table{
+        width: 230%;
+    }
 }
 
 /* Responsive Page Ends Here*/

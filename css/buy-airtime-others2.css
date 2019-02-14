@@ -12,7 +12,7 @@
 body {
     font-family: "CircularStd-Book", Arial, sans-serif;
     font-size: .875rem;
-    background: #F7F8FA;
+    background: #F2FAF4;
 }
 
 
@@ -527,17 +527,18 @@ form .btn-submit{
     padding: 12px;
     cursor: pointer;
     width: 30%;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 .modal .modal-footer .exit-btn{
     background: #2A9E4A;
-    border: 1.5px solid #2A9E4A;
+    border: 1.2px solid #2A9E4A;
     color: #FFFFFF;
     border-radius: 3px;
-    padding: 12px;
+    padding: 10px;
     cursor: pointer;
     width: 30%;
+    text-decoration: none;
 }
 
 /*Main Page Ends Here*/
@@ -546,174 +547,38 @@ form .btn-submit{
 
 /*Responsive Page Starts Here*/
 
-@media screen and (max-width: 2500px){
-
-    .form-box .row{
-        margin-left: 16%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 38.5%;
-    }
-
-}
-
-@media screen and (max-width: 2384px){
-
-    .form-box .veri-field{
-        margin-left: 38%;
-    }
-
-}
-
-@media screen and (max-width: 2200px){
-
-    .form-box .veri-field{
-        margin-left: 37%;
-    }
-
-}
-
-@media screen and (max-width: 2044px){
-
-    .form-box .veri-field{
-        margin-left: 35.5%;
-    }
-
-}
-
-@media screen and (max-width: 1850px){
-
-    .form-box .row{
-        margin-left: 11%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 34%;
-    }
-
-}
-
-@media screen and (max-width: 1688px){
-
-    .form-box .veri-field{
-        margin-left: 32%;
-    }
-
-}
-
-@media screen and (max-width: 1550px){
-
-    .form-box .row{
-        margin-left: 9%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 30%;
-    }
-
-}
-
-@media screen and (max-width: 1405px){
-
-    .form-box .row{
-        margin-left: 6%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 28%;
-    }
-
-}
-
-@media screen and (max-width: 1300px){
-
-    .form-box .row{
-        margin-left: 3%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 26%;
-    }
-
-}
-
-@media screen and (max-width: 1188px){
-
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 24%;
-    }
-
-}
-
-@media screen and (max-width: 1112px){
+@media screen and (max-width: 1040px){
 
     .form-box{
-        width: 80%;
+        width: 70%;
     }
 
-    .form-box .row{
-        margin-left: 3%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 28%;
+    .table{
+        width: 110%;
     }
 
 }
 
-@media screen and (max-width: 1008px){
+@media screen and (max-width: 969px){
 
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 25%;
+    .table{
+        width: 130%;
     }
 
 }
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 858px){
 
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 21%;
-    }
-
-    .modal{
-        margin-left: 0px;
+    .table{
+        width: 150%;
     }
 
 }
 
-@media screen and (max-width: 848px){
+@media screen and (max-width: 777px){
 
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 17%;
-    }
-
-}
-
-@media screen and (max-width: 780px){
-
-    .form-box .row{
-        margin-left: 0%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 14%;
+    .table{
+        width: 160%;
     }
 
 }
@@ -789,186 +654,88 @@ form .btn-submit{
         width: 100%;
     }
 
-    .form-box .row{
-        margin-left: -2%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 24%;
+    .table{
+        width: 110%;
     }
 
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 749px){
 
-    .form-box .row{
-        margin-left: -5%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 20%;
+    .table{
+        width: 130%;
     }
 
 }
 
-@media screen and (max-width: 608px){
+@media screen and (max-width: 638px){
+
+    .table{
+        width: 150%;
+    }
+
+}
+
+@media screen and (max-width: 557px){
 
     .form-box{
-        width: 90%;
+        width: 85%;
     }
 
-    .form-box .row{
-        margin-left: -10%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 24%;
+    .table{
+        width: 170%;
     }
 
 }
 
-@media screen and (max-width: 575px){
-
-    .modal{
-        width: 90%;
-        margin-left: 25px;
-    }
-
-}
-
-@media screen and (max-width: 560px){
+@media screen and (max-width: 495px){
 
     .main-page-content{
-        width: 90% !important;
-    }
-
-    .form-box{
-        width: 90% !important;
-    }
-
-    .form-box .veri-field{
-        margin-left: 20%;
-    }
-
-    .modal .modal-footer{
-        width: 95%;
-        margin-left: -10px;
-    }
-    
-    .modal .modal-footer .cancel-btn{
-        width: 40%;
-    }
-    
-    .modal .modal-footer .exit-btn{
-        width: 40%;
-    }
-
-}
-
-@media screen and (max-width: 492px){
-
-    .form-box .veri-field{
-        margin-left: 15%;
-    }
-
-}
-
-@media screen and (max-width: 436px){
-
-    .form-box .veri-field{
-        margin-left: 10%;
-    }
-
-}
-
-@media screen and (max-width: 404px){
-
-    .modal{
-        margin-left: 15px !important;
-    }
-
-    .modal-body{
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
-
-}
-
-@media screen and (max-width: 390px){
-
-    .form-box .row{
-        margin-left: -20%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 5%;
-    }
-
-}
-
-@media screen and (max-width: 368px){
-
-    .form-box .row{
-        margin-left: -25%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 9%;
-    }
-
-    .form-box input.verify {
-        width: 45px;
-        height: 45px;
-        font-size: 1em;
-        margin-right: 10px;
-    }
-
-    .form-box form .buttons{
-        width: 90%;
-        display: block;
-    }
-
-    form .btn-back{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    
-    form .btn-submit{
         width: 100%;
     }
 
 }
 
-@media screen and (max-width: 344px){
+@media screen and (max-width: 425px){
 
-    .form-box .veri-field{
-        margin-left: 5%;
+    .table{
+        width: 190%;
     }
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 383px){
 
-    .main-page-content{
-        width: 98% !important;
+    .table{
+        width: 190%;
     }
 
-    .form-box .row{
-        margin-left: -25%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 5%;
+    .table tbody tr td{
+        padding-left: 25px !important;
+        font-size: 0.8em;
     }
 
 }
 
-@media screen and (max-width: 305px){
+@media screen and (max-width: 356px){
 
-    .form-box .veri-field{
-        margin-left: 3%;
+    .table{
+        width: 200%;
     }
+}
 
+@media screen and (max-width: 340px){
+
+    .table{
+        width: 220%;
+    }
+}
+
+@media screen and (max-width: 312px){
+
+    .table{
+        width: 230%;
+    }
 }
 
 /* Responsive Page Ends Here*/
