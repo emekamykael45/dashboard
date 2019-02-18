@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css/to-jaiz-acc2.css"/>
+    <link rel="stylesheet" href="css/to-beneficiary.css"/>
     <!-- Font CSS -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     
@@ -111,10 +111,10 @@
                 </a>
                 <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
-                        <a href="" class="act">Own Account Transfer</a>
+                        <a href="">Own Account Transfer</a>
                         <a href="">To Jaiz Account</a>
                         <a href="">To other Banks</a>
-                        <a href="">To Beneficiary</a>
+                        <a href="" class="act">To Beneficiary</a>
                         <a href="" class="fx">FX Transfer</a>
                     </div>
 
@@ -158,88 +158,104 @@
                 
                 <div class="main-page-content">
 
-                    <h4>Transfer</h4>
+                    <h4>Transfer</h4><a href="to-beneficiary2.html" class="go-to-link">Go to 2nd page</a>
                     <div class="own-account-content">
-                        <p class="title">Own Account Transfer</p>
+                        <p class="title">To Jaiz account</p>
                         <hr>
                         <div class="form-box">
-                            <h6>Preview Your Details</h6>
-                            <br><br>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p class="send-receive-text">Sending Account</p>
-                                    <p class="jaiz-account-text">Jaiz Savings Account</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p class="send-receive-text">Receiving Account</p>
-                                    <p class="jaiz-account-text">Jaiz Current Account</p>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p class="send-receive-text">Amount</p>
-                                    <p class="jaiz-account-text">N10,000</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p class="send-receive-text">Receiving Account Name</p>
-                                    <p class="jaiz-account-text">Ojo Leke</p>
-                                </div>
-                            </div>
-                            <br><br>
-                            <hr>
-                            <br>
-                            <p class="enter-your-digits">Enter Your 4 digits pin to complete transaction</p>
                             <form>
-                                <div class="veri-field">
-                                    <input type="tel" name="pincode-1" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" tabindex="1" placeholder="·" autocomplete="off" class="verify" />
-                                    <input type="tel" name="pincode-1" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" tabindex="1" placeholder="·" autocomplete="off" class="verify" />
-                                    <input type="tel" name="pincode-1" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" tabindex="1" placeholder="·" autocomplete="off" class="verify" />
-                                    <input type="tel" name="pincode-1" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" tabindex="1" placeholder="·" autocomplete="off" class="verify" />
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Sending Account</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                    <option class="light-option">Choose account</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    </select>
                                 </div>
 
-                                <div class="buttons">
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn-back" data-toggle="modal" data-target="#exampleModalCenter">GO BACK</button>
-                                    <button type="button" class="btn-submit" data-toggle="modal" data-target="#exampleModalCenter2">COMPLETE TRANSACTION</button>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Select from your Beneficiaries</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option class="light-option">Select from any of your accounts</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
                                 </div>
 
-                                <!-- Go-Back Modal -->
-                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <p class="modal-title" id="exampleModalLongTitle">End Transfer Process</p>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                Are you sure you want to exit this process?
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="cancel-btn" data-dismiss="modal">CANCEL</button>
-                                                <button type="button" class="exit-btn">YES, EXIT</button>
-                                            </div>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <label for="exampleFormControlSelect1">Receiving Bank</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option class="light-option">Select Bank</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <label for="exampleInputEmail1">Amount (₦)</label>
+                                        <input type="number" class="form-control" id="exampleInputAmount" placeholder="Enter Amount">
                                     </div>
                                 </div>
 
-                                <!-- Complete Transaction Modal -->
-                                <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-body">
-                                                <img src="images/checkmark.png">
-                                                <p>Transaction Successful</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Make this receipient a beneficiary
+                                    </label>
                                 </div>
 
+                                <button type="submit" class="btn-submit">PROCEED</button>
+
+                                <button type="submit" class="add-a-transaction"><i class="fas fa-plus"></i> Add A Transaction</button>
                             </form>
                         </div>
                     </div>
+
+                    <hp class="recent-trans-text">Recent Transaction History</p>
+                    <div class="table-responsive">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Sending Account</th>
+                                    <th scope="col">Receiving Bank</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col" class="hidden-col">Hidden</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>22-10-2018</td>
+                                    <td>Jaiz Savings Account</td>
+                                    <td>First Bank</td>
+                                    <td>N10,000</td>
+                                    <td><a href="">Redo</a></td>
+                                </tr>
+                                <tr class="stripped">
+                                    <td>22-10-2018</td>
+                                    <td>Jaiz Savings Account</td>
+                                    <td>EcoBank</td>
+                                    <td>N10,000</td>
+                                    <td><a href="">Redo</a></td>
+                                </tr>
+                                <tr>
+                                    <td>22-10-2018</td>
+                                    <td>Jaiz Savings Account</td>
+                                    <td>GT Bank</td>
+                                    <td>N10,000</td>
+                                    <td><a href="">Redo</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
 
                 </div>
 
@@ -275,57 +291,6 @@
                     document.getElementById("overlay").style.display = "none";
                 }   
             }
-        </script>
-
-        <!-- 4 digits pin input -->
-        <script>
-        
-            $(function() {
-                'use strict';
-
-                var body = $('body');
-
-                function goToNextInput(e) {
-                var key = e.which,
-                    t = $(e.target),
-                    sib = t.next('.verify');
-
-                if (key != 9 && (key < 48 || key > 57)) {
-                    e.preventDefault();
-                    return false;
-                }
-
-                if (key === 9) {
-                    return true;
-                }
-
-                if (!sib || !sib.length) {
-                    sib = body.find('.verify').eq(0);
-                }
-                sib.select().focus();
-                }
-
-                function onKeyDown(e) {
-                var key = e.which;
-
-                if (key === 9 || (key >= 48 && key <= 57)) {
-                    return true;
-                }
-
-                e.preventDefault();
-                return false;
-                }
-
-                function onFocus(e) {
-                $(e.target).select();
-                }
-
-                body.on('keyup', '.verify', goToNextInput);
-                body.on('keydown', '.verify', onKeyDown);
-                body.on('click', '.verify', onFocus);
-
-            })
-            
         </script>
 
         <!-- Bootstrap core JavaScript
