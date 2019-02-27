@@ -387,20 +387,18 @@ input:focus, textarea:focus{
 
 .form-box{
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     margin-top: 40px;
 }
 
 .form-box h6{
     color: #2A9E4A !important;
     text-align: center;
-    font-weight: 500;
 }
 
 .form-box .row{
     margin: 0 auto;
-    width: 90%;
-    margin-left: 13%;
+    width: 100%;
 }
 
 .form-box .send-receive-text{
@@ -410,13 +408,6 @@ input:focus, textarea:focus{
 }
 .form-box .jaiz-account-text{
     color: #545454;
-}
-
-.form-box .amount-div{
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 60%;
-    padding-left: 0px;
 }
 
 .form-box .enter-your-digits{
@@ -549,11 +540,11 @@ form .btn-submit{
 @media screen and (max-width: 2500px){
 
     .form-box .row{
-        margin-left: 21%;
+        margin-left: 5%;
     }
 
     .form-box .veri-field{
-        margin-left: 38.5%;
+        margin-left: 41.5%;
     }
 
 }
@@ -561,7 +552,7 @@ form .btn-submit{
 @media screen and (max-width: 2384px){
 
     .form-box .veri-field{
-        margin-left: 38%;
+        margin-left: 41%;
     }
 
 }
@@ -569,7 +560,7 @@ form .btn-submit{
 @media screen and (max-width: 2200px){
 
     .form-box .veri-field{
-        margin-left: 37%;
+        margin-left: 40%;
     }
 
 }
@@ -577,7 +568,7 @@ form .btn-submit{
 @media screen and (max-width: 2044px){
 
     .form-box .veri-field{
-        margin-left: 35.5%;
+        margin-left: 38.5%;
     }
 
 }
@@ -585,7 +576,43 @@ form .btn-submit{
 @media screen and (max-width: 1850px){
 
     .form-box .row{
-        margin-left: 19%;
+        margin-left: 3%;
+    }
+
+    .form-box .veri-field{
+        margin-left: 37%;
+    }
+
+}
+
+@media screen and (max-width: 1688px){
+
+    .form-box .veri-field{
+        margin-left: 37%;
+    }
+
+}
+
+@media screen and (max-width: 1550px){
+
+    .form-box .veri-field{
+        margin-left: 36%;
+    }
+
+}
+
+@media screen and (max-width: 1441px){
+
+    .form-box .veri-field{
+        margin-left: 34.5%;
+    }
+
+}
+
+@media screen and (max-width: 1405px){
+
+    .form-box .row{
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -594,42 +621,15 @@ form .btn-submit{
 
 }
 
-@media screen and (max-width: 1688px){
-
-    .form-box .veri-field{
-        margin-left: 32%;
-    }
-
-}
-
-@media screen and (max-width: 1550px){
-
-    .form-box .veri-field{
-        margin-left: 30%;
-    }
-
-}
-
-@media screen and (max-width: 1405px){
-
-    .form-box .row{
-        margin-left: 15%;
-    }
-
-    .form-box .veri-field{
-        margin-left: 28%;
-    }
-
-}
-
 @media screen and (max-width: 1300px){
 
     .form-box .row{
-        margin-left: 15%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
-        margin-left: 26%;
+        width: 80%;
+        margin-left: 32%;
     }
 
 }
@@ -637,11 +637,11 @@ form .btn-submit{
 @media screen and (max-width: 1188px){
 
     .form-box .row{
-        margin-left: 13%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
-        margin-left: 24%;
+        margin-left: 30%;
     }
 
 }
@@ -653,7 +653,7 @@ form .btn-submit{
     }
 
     .form-box .row{
-        margin-left: 13%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -665,7 +665,7 @@ form .btn-submit{
 @media screen and (max-width: 1008px){
 
     .form-box .row{
-        margin-left: 13%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -677,7 +677,7 @@ form .btn-submit{
 @media screen and (max-width: 920px){
 
     .form-box .row{
-        margin-left: 8%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -693,7 +693,7 @@ form .btn-submit{
 @media screen and (max-width: 848px){
 
     .form-box .row{
-        margin-left: 7%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -705,7 +705,7 @@ form .btn-submit{
 @media screen and (max-width: 780px){
 
     .form-box .row{
-        margin-left: 5%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -786,7 +786,7 @@ form .btn-submit{
     }
 
     .form-box .row{
-        margin-left: 10%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -798,7 +798,7 @@ form .btn-submit{
 @media screen and (max-width: 680px){
 
     .form-box .row{
-        margin-left: 5%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
@@ -814,7 +814,7 @@ form .btn-submit{
     }
 
     .form-box .row{
-        margin-left: 5%;
+        margin-left: 0%;
     }
 
     .form-box .veri-field{
